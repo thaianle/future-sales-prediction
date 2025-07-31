@@ -1,8 +1,8 @@
-# Future Sales Prediction Project
+# Future Sales Prediction Project (README updated July 29, 2025)
 
-## Description of the project (Updated July 29, 2025)
+### I. Project and Data Description
 
-![Illustration photo of sales growth](*github_link* "Source: Pixabay")
+![Illustration photo of sales growth](https://github.com/thaianle/future-sales-prediction/blob/main/illustration/sales_illustration.jpg "Source: Pixabay")
 
 _Source: [Pixabay](https://pixabay.com/illustrations/statistics-finance-trading-8787079/)_
 
@@ -12,11 +12,15 @@ The project involved daily historical sales data of 1C Company, a Rusian softwar
 
 Given the daily historical sales data from January 2013 to October 2015, I needed to predict sales for each combination of a shop and an item for the next month, November 2015.
 
-I used popular Python libraries such as NumPy, Pandas, Matplotlib, and Seaborn to analyze the data, so that I could get an overall view of . For the predictions part, I tested different regression models, including linear-based models (such as Linear Regression, Ridge, Lasso, and ElasticNet) as well as tree-based ensemble learning algorithms in order to maximize performance.
+### II. Repo Description
 
-The set of data files, directly downloaded from Kaggle in July 2025, is stored in the [data](https://github.com/thaianle/future-sales-prediction/tree/main/data) folder.
+The set of data files, directly downloaded from Kaggle in July 2025, is stored in the [data](https://github.com/thaianle/future-sales-prediction/tree/main/data) folder. For more information on the data and how it is organized, visit the link to the corresponding Kaggle competition in the "About" section of this repo.
 
 The analysis can be found in the [prediction_code.ipynb](https://github.com/thaianle/future-sales-prediction/blob/main/prediction_code.ipynb) file, and my submission on Kaggle is frequently updated in the [thai_an_le_submission.csv](https://github.com/thaianle/future-sales-prediction/blob/main/thai_an_le_submission.csv) file.
+
+### III. Approaches
+
+I used popular Python libraries such as NumPy, Pandas, Matplotlib, and Seaborn to analyze the data, so that I could get an overall view of . For the predictions part, I tested different regression models, including linear-based models (such as Linear Regression, Ridge, Lasso, and ElasticNet) as well as tree-based ensemble learning algorithms in order to maximize performance.
 
 This project also outlined my approach to some of the data challenges, including but not limited to: re-formatting and encoding recurring datetime data, encoding categorical variables with high cardinality (containing many different categories), joining DataFrames with pandas, and tuning hyperparameters.
 
